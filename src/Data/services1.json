@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "/assets/images/icon/serviceIcon3_1.svg",
+    "title": "Software features",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"   
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_2.svg",
+    "title": "Subscription plans",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"   
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_3.svg",
+    "title": "Customization option",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"  
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_5.svg",
+    "title": "Choose an app",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"  
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_5.svg",
+    "title": "Clean modern code",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_6.svg",
+    "title": "User interactive",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"   
+  }    
+]

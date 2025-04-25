@@ -1,0 +1,200 @@
+[
+  {
+    "id": "1",
+    "title": "The Future of AI Agents in the World",
+    "slug": "future-of-ai-agents",
+    "excerpt": "Exploring how AI agents are redefining autonomy, intelligence, and human-machine collaboration in the digital era.",
+    "content": "As artificial intelligence continues to evolve at an unprecedented pace, AI agents are emerging as one of the most transformative paradigms in the digital era...",
+    "featuredImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+    "author": {
+      "name": "MNAI Team",
+      "avatar": "/assets/images/team/author1.jpg",
+      "bio": "AI Research Team at MNAI"
+    },
+    "categories": ["AI", "Technology", "Future"],
+    "tags": ["AI Agents", "Machine Learning", "Automation"],
+    "publishedAt": "2024-04-18",
+    "readTime": "8 min read",
+    "status": "published"
+  },
+  {
+    "id": "2",
+    "title": "Revitalising Your People in a Digital Age",
+    "slug": "revitalising-people-digital-age",
+    "excerpt": "Strategies for maintaining team engagement and productivity in an increasingly digital workplace.",
+    "content": "In today's rapidly evolving digital landscape, keeping teams engaged and productive requires new approaches...",
+    "featuredImage": "/assets/images/blog/blogThumb3_2.jpg",
+    "author": {
+      "name": "Sarah Johnson",
+      "avatar": "/assets/images/team/author2.jpg",
+      "bio": "HR Innovation Specialist"
+    },
+    "categories": ["HR", "Leadership"],
+    "tags": ["Team Management", "Digital Transformation", "Employee Engagement"],
+    "publishedAt": "2024-04-15",
+    "readTime": "6 min read",
+    "status": "published"
+  },
+  {
+    "id": "3",
+    "title": "Regional Managers Time Management",
+    "slug": "regional-managers-time-management",
+    "excerpt": "Effective time management strategies for regional managers to maximize productivity and team performance.",
+    "content": "Regional managers face unique challenges in balancing multiple responsibilities across different locations...",
+    "featuredImage": "/assets/images/blog/blogThumb3_1.jpg",
+    "author": {
+      "name": "Michael Chen",
+      "avatar": "/assets/images/team/author3.jpg",
+      "bio": "Management Consultant"
+    },
+    "categories": ["Management", "Productivity"],
+    "tags": ["Time Management", "Leadership", "Regional Operations"],
+    "publishedAt": "2024-04-12",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "id": "4",
+    "title": "Organizational Teams: Building Family-Like Bonds",
+    "slug": "organizational-teams-family-bonds",
+    "excerpt": "How to foster strong, family-like connections within organizational teams for better collaboration and success.",
+    "content": "Building strong team relationships is crucial for organizational success. Learn how to create family-like bonds...",
+    "featuredImage": "/assets/images/blog/blogThumb3_3.jpg",
+    "author": {
+      "name": "Emily Rodriguez",
+      "avatar": "/assets/images/team/author4.jpg",
+      "bio": "Team Dynamics Expert"
+    },
+    "categories": ["Team Building", "Culture"],
+    "tags": ["Team Dynamics", "Organizational Culture", "Employee Relations"],
+    "publishedAt": "2024-04-10",
+    "readTime": "7 min read",
+    "status": "published"
+  },
+  {
+    "id": "5",
+    "title": "Essential Printing Services for Modern Businesses",
+    "slug": "essential-printing-services",
+    "excerpt": "Understanding the critical role of printing services in today's business operations and marketing strategies.",
+    "content": "Printing services remain a vital component of business operations, despite the digital transformation...",
+    "featuredImage": "/assets/images/blog/blogThumb3_4.jpg",
+    "author": {
+      "name": "David Wilson",
+      "avatar": "/assets/images/team/author5.jpg",
+      "bio": "Business Operations Specialist"
+    },
+    "categories": ["Business", "Operations"],
+    "tags": ["Printing Services", "Business Operations", "Marketing"],
+    "publishedAt": "2024-04-08",
+    "readTime": "4 min read",
+    "status": "published"
+  },
+  {
+    "id": "6",
+    "title": "Daily Improvement: The 1% Better Strategy",
+    "slug": "daily-improvement-strategy",
+    "excerpt": "Learn how small, consistent improvements can lead to significant long-term success in business and life.",
+    "content": "The concept of getting 1% better every day might seem small, but the cumulative effect can be transformative...",
+    "featuredImage": "/assets/images/blog/blogThumb3_5.jpg",
+    "author": {
+      "name": "Lisa Thompson",
+      "avatar": "/assets/images/team/author6.jpg",
+      "bio": "Personal Development Coach"
+    },
+    "categories": ["Personal Development", "Productivity"],
+    "tags": ["Continuous Improvement", "Habits", "Success"],
+    "publishedAt": "2024-04-05",
+    "readTime": "6 min read",
+    "status": "published"
+  },
+  {
+    "id": "7",
+    "title": "Optimizing Your Daily Routine: A Comprehensive Checklist",
+    "slug": "daily-routine-checklist",
+    "excerpt": "A practical guide to improving your daily routine for maximum productivity and well-being.",
+    "content": "Creating an effective daily routine is key to maintaining productivity and achieving your goals...",
+    "featuredImage": "/assets/images/blog/blogThumb3_6.jpg",
+    "author": {
+      "name": "James Anderson",
+      "avatar": "/assets/images/team/author7.jpg",
+      "bio": "Productivity Expert"
+    },
+    "categories": ["Productivity", "Lifestyle"],
+    "tags": ["Routine", "Time Management", "Well-being"],
+    "publishedAt": "2024-04-03",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "id": "8",
+    "title": "Essential UX Principles Every Designer Should Know",
+    "slug": "essential-ux-principles",
+    "excerpt": "Key user experience principles that can make or break your digital product's success.",
+    "content": "Understanding and implementing core UX principles is crucial for creating successful digital products...",
+    "featuredImage": "/assets/images/blog/blogThumb3_7.jpg",
+    "author": {
+      "name": "Sophia Martinez",
+      "avatar": "/assets/images/team/author8.jpg",
+      "bio": "UX Design Lead"
+    },
+    "categories": ["Design", "UX"],
+    "tags": ["User Experience", "Design Principles", "Digital Products"],
+    "publishedAt": "2024-04-01",
+    "readTime": "8 min read",
+    "status": "published"
+  },
+  {
+    "id": "9",
+    "title": "Emerging Technologies That Will Transform Our World",
+    "slug": "emerging-technologies",
+    "excerpt": "Exploring the groundbreaking technologies that are set to revolutionize various industries and daily life.",
+    "content": "The pace of technological innovation continues to accelerate, bringing transformative changes...",
+    "featuredImage": "/assets/images/blog/blogThumb3_8.jpg",
+    "author": {
+      "name": "Robert Taylor",
+      "avatar": "/assets/images/team/author9.jpg",
+      "bio": "Technology Analyst"
+    },
+    "categories": ["Technology", "Innovation"],
+    "tags": ["Emerging Tech", "Digital Transformation", "Future Trends"],
+    "publishedAt": "2024-03-29",
+    "readTime": "7 min read",
+    "status": "published"
+  },
+  {
+    "id": "10",
+    "title": "Mind-Blowing Applications of Artificial Intelligence",
+    "slug": "ai-applications",
+    "excerpt": "Discover the most innovative and surprising ways AI is being applied across different industries.",
+    "content": "Artificial Intelligence continues to push the boundaries of what's possible in technology...",
+    "featuredImage": "/assets/images/blog/blogThumb3_9.jpg",
+    "author": {
+      "name": "MNAI Team",
+      "avatar": "/assets/images/team/author1.jpg",
+      "bio": "AI Research Team at MNAI"
+    },
+    "categories": ["AI", "Technology"],
+    "tags": ["Artificial Intelligence", "Innovation", "Industry Applications"],
+    "publishedAt": "2024-03-27",
+    "readTime": "9 min read",
+    "status": "published"
+  },
+  {
+    "id": "11",
+    "title": "The Rise of Quantum Computing: A New Era",
+    "slug": "quantum-computing-new-era",
+    "excerpt": "Understanding how quantum computing is revolutionizing data processing and problem-solving capabilities.",
+    "content": "Quantum computing represents a paradigm shift in how we process information and solve complex problems...",
+    "featuredImage": "/assets/images/blog/blogThumb3_10.jpg",
+    "author": {
+      "name": "Dr. Alex Chen",
+      "avatar": "/assets/images/team/author10.jpg",
+      "bio": "Quantum Computing Researcher"
+    },
+    "categories": ["Technology", "Science", "Innovation"],
+    "tags": ["Quantum Computing", "Technology", "Future Tech"],
+    "publishedAt": "2024-04-20",
+    "readTime": "10 min read",
+    "status": "published"
+  }
+]

@@ -1,0 +1,145 @@
+/* Blog Details Page Styles */
+.blog-details-page {
+  padding: 2rem 0;
+}
+
+.blog-details__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.blog-details__content {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.blog-details__header {
+  margin-bottom: 2rem;
+}
+
+.blog-details__meta {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.blog-details__meta > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.blog-details__meta img {
+  width: 16px;
+  height: 16px;
+}
+
+.blog-details__title {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #333;
+  line-height: 1.2;
+}
+
+.blog-details__image {
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.blog-details__image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.blog-details__body {
+  margin-bottom: 2rem;
+}
+
+.blog-details__excerpt {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.blog-details__content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.blog-details__footer {
+  border-top: 1px solid #eee;
+  padding-top: 2rem;
+}
+
+.blog-details__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.blog-details__tag {
+  background: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.blog-details__author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.blog-details__author img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.blog-details__author-info h4 {
+  margin: 0 0 0.5rem;
+  color: #333;
+}
+
+.blog-details__author-info p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .blog-details__title {
+    font-size: 2rem;
+  }
+
+  .blog-details__meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .blog-details__author {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .blog-details__author img {
+    width: 80px;
+    height: 80px;
+  }
+} 

@@ -1,0 +1,20 @@
+[
+  {
+    "img": "/assets/images/icon/serviceIcon1_1.svg",
+    "title": "Software features",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",  
+    "addclass": "service-box style1 wow fadeInUp"  
+  },
+  {
+    "img": "/assets/images/icon/serviceIcon1_2.svg",
+    "title": "Customization option",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+    "addclass": "service-box style1 wow fadeInUp"  
+  },
+  {
+    "img": "/assets/images/icon/serviceIcon1_3.svg",
+    "title": "Subscription plans",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+    "addclass": "service-box style1 active wow fadeInUp"  
+  } 
+]
