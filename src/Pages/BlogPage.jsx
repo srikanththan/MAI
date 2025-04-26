@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import BreadCumb from '../Components/Common/BreadCumb';
 import Blog1 from '../Components/Blog/Blog1';
@@ -22,7 +22,6 @@ const BlogPage = () => {
   return (
     <div className="blog-page">
       <BreadCumb title="Blog" />
-      
       <div className="blog-page__container">
         <div className="blog-page__sidebar">
           <div className="blog-page__view-toggle">
@@ -39,7 +38,6 @@ const BlogPage = () => {
               List View
             </button>
           </div>
-
           <div className="blog-page__categories">
             <h3>Categories</h3>
             <ul>
@@ -55,18 +53,17 @@ const BlogPage = () => {
             </ul>
           </div>
         </div>
-
         <div className="blog-page__content">
           {viewMode === 'grid' ? (
             <div className="blog-page__grid">
               {filteredPosts.map((post) => (
-                <Blog1 key={post.id} post={post} />
+                <Blog1 key={post.id || post.slug} post={post} />
               ))}
             </div>
           ) : (
             <div className="blog-page__list">
               {filteredPosts.map((post) => (
-                <Blog2 key={post.id} post={post} />
+                <Blog2 key={post.id || post.slug} post={post} />
               ))}
             </div>
           )}
