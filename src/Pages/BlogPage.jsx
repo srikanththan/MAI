@@ -19,6 +19,11 @@ const BlogPage = () => {
     return post.categories.includes(selectedCategory);
   });
 
+  // Sort posts by publishedAt descending (newest first)
+  const sortedPosts = [...filteredPosts].sort(
+    (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt)
+  );
+
   return (
     <div className="blog-page">
       <BreadCumb title="Blog" />
@@ -56,13 +61,13 @@ const BlogPage = () => {
         <div className="blog-page__content">
           {viewMode === 'grid' ? (
             <div className="blog-page__grid">
-              {filteredPosts.map((post) => (
+              {sortedPosts.map((post) => (
                 <Blog1 key={post.id || post.slug} post={post} />
               ))}
             </div>
           ) : (
             <div className="blog-page__list">
-              {filteredPosts.map((post) => (
+              {sortedPosts.map((post) => (
                 <Blog2 key={post.id || post.slug} post={post} />
               ))}
             </div>
