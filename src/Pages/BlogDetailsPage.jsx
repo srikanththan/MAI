@@ -94,7 +94,11 @@ const BlogDetailsPage = () => {
               <MDXProvider components={components}>
                 <MDXContent />
               </MDXProvider>
-            ) : null}
+            ) : (
+              <div className="blog-content">
+                <p>{post.excerpt}</p>
+              </div>
+            )}
           </div>
           <div className="blog-details__footer">
             <div className="blog-details__tags">
