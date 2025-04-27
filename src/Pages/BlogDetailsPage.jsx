@@ -11,7 +11,13 @@ const components = {
   h1: (props) => <h1 className="blog-content__title" {...props} />,
   h2: (props) => <h2 className="blog-content__subtitle" {...props} />,
   p: (props) => <p className="blog-content__paragraph" {...props} />,
-  img: (props) => <img className="blog-content__image" {...props} />,
+  img: (props) => {
+    // Skip the image if it's the same as the featured image
+    if (props.src === post.featuredImage) {
+      return null;
+    }
+    return <img className="blog-content__image" {...props} />;
+  },
   ul: (props) => <ul className="blog-content__list" {...props} />,
   ol: (props) => <ol className="blog-content__list" {...props} />,
   li: (props) => <li className="blog-content__list-item" {...props} />,
