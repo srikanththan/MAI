@@ -1,5 +1,5 @@
-import React, { useState, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useMemo, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import BreadCumb from '../Components/Common/BreadCumb';
 import Blog1 from '../Components/Blog/Blog1';
 import Blog2 from '../Components/Blog/Blog2';
@@ -7,8 +7,16 @@ import blogData from '../Data/blog.json';
 import '../assets/blog.css';
 
 const BlogPage = () => {
+  const location = useLocation();
   const [viewMode, setViewMode] = useState('grid');
   const [selectedCategory, setSelectedCategory] = useState('all');
+
+  // Set view mode from navigation state if provided
+  useEffect(() => {
+    if (location.state?.viewMode) {
+      setViewMode(location.state.viewMode);
+    }
+  }, [location]);
 
   // Get unique categories from blog data
   const categories = ['all', ...new Set(blogData.flatMap(post => post.categories))];
@@ -52,7 +60,7 @@ const BlogPage = () => {
                   className={selectedCategory === category ? 'active' : ''}
                   onClick={() => setSelectedCategory(category)}
                 >
-                  {category}
+                  <span>{category.charAt(0).toUpperCase() + category.slice(1)}</span>
                 </li>
               ))}
             </ul>

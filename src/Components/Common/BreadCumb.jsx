@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const BreadCumb = ({ Title, bgimg }) => {
     const location = useLocation();
-    const isBlogPage = location.pathname === '/blog';
+    const isBlogPage = location.pathname.includes('/blog');
     
     useEffect(() => {
         loadBackgroudImages();
@@ -23,12 +23,12 @@ const BreadCumb = ({ Title, bgimg }) => {
                     <div className="breadcumb-wrapper">
                         <div className="page-heading">
                             <h1>{Title}</h1>
-                            <div className="links">
-                                {!isBlogPage && (
+                            {!isBlogPage && (
+                                <div className="links">
                                     <Link to="/">Home<span className="slash">/</span></Link>
-                                )}
-                                {Title}
-                            </div>
+                                    {Title}
+                                </div>
+                            )}
                             {!isBlogPage && (
                                 <p className="breadcrumb-desc">
                                     Your AI-powered assistant is here to help! Whether you need troubleshooting guidance, software updates, 
