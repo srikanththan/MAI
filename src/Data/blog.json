@@ -1,5 +1,330 @@
 [
   {
+    "title": "5G and the Future of Connectivity",
+    "slug": "5g-and-the-future-of-connectivity",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.unsplash.com/photo-1581090700227-1e8d40f0a436",
+    "author": {
+      "name": "M",
+      "avatar": "https://images.unsplash.com/photo-1516321310768-79db8a2784b2",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-26",
+    "readTime": "8 min read",
+    "status": "published"
+  },
+  {
+    "title": "AI Agent's Future",
+    "slug": "ai-agents-future",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.unsplash.com/photo-1581090700227-1e8d40f0a436",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.unsplash.com/photo-1516321310768-79db8a2784b2",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-26",
+    "readTime": "8 min read",
+    "status": "published"
+  },
+  {
+    "title": "AI and the Future of Transportation",
+    "slug": "ai-and-the-future-of-transportation",
+    "excerpt": "Exploring how AI is revolutionizing transportation, from autonomous vehicles to smart traffic systems.",
+    "featuredImage": "https://images.pexels.com/photos/163236/pexels-photo-163236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Transportation",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Autonomous Vehicles",
+      "Smart Traffic",
+      "Logistics"
+    ],
+    "publishedAt": "2025-04-28",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "title": "AI in Environmental Monitoring",
+    "slug": "ai-in-environmental-monitoring",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.unsplash.com/photo-1581090700227-1e8d40f0a436",
+    "author": {
+      "name": "M",
+      "avatar": "https://images.unsplash.com/photo-1516321310768-79db8a2784b2",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-26",
+    "readTime": "8 min read",
+    "status": "published"
+  },
+  {
+    "title": "Augmented Reality vs. Virtual Reality",
+    "slug": "augmented-reality-vs-virtual-reality",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.pexels.com/photos/5895846/pexels-photo-5895846.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-27",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "title": "Big Data and Its Impact on Business",
+    "slug": "big-data-and-its-impact-on-business",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.pexels.com/photos/5895846/pexels-photo-5895846.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-27",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "title": "Blockchain Beyond Cryptocurrency",
+    "slug": "blockchain-beyond-cryptocurrency",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.pexels.com/photos/4173233/pexels-photo-4173233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-28",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "title": "Cryptocurrency and the Future of Money",
+    "slug": "cryptocurrency-and-the-future-of-money",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.pexels.com/photos/4173233/pexels-photo-4173233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-28",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "title": "Embracing the Freedom",
+    "slug": "embracing-the-freedom",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.pexels.com/photos/4173233/pexels-photo-4173233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-28",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "title": "How AI is Changing Education",
+    "slug": "how-ai-is-changing-education",
+    "excerpt": "Exploring how AI is revolutionizing education through personalized learning and automation.",
+    "featuredImage": "https://images.unsplash.com/photo-1509062522246-3755977927d7",
+    "author": {
+      "name": "M",
+      "avatar": "https://images.unsplash.com/photo-1516321310768-79db8a2784b2",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Education",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "EdTech",
+      "Personalized Learning",
+      "Automation"
+    ],
+    "publishedAt": "2025-04-26",
+    "readTime": "8 min read",
+    "status": "published"
+  },
+  {
+    "title": "How Robotics Is Transforming Industries",
+    "slug": "how-robotics-is-transforming-industries",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.pexels.com/photos/5895846/pexels-photo-5895846.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-27",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "title": "How Streaming Changed Entertainment Forever",
+    "slug": "how-streaming-changed-entertainment-forever",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.pexels.com/photos/4057663/pexels-photo-4057663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-28",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "title": "Life Beyond Earth",
+    "slug": "life-beyond-earth",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.unsplash.com/photo-1581090700227-1e8d40f0a436",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.unsplash.com/photo-1516321310768-79db8a2784b2",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-26",
+    "readTime": "8 min read",
+    "status": "published"
+  },
+  {
     "title": "The Rise of Quantum Computing: A New Era",
     "slug": "quantum-computing-new-era",
     "excerpt": "Understanding how quantum computing is revolutionizing data processing and problem-solving capabilities.",
@@ -21,6 +346,56 @@
     ],
     "publishedAt": "2024-04-20",
     "readTime": "10 min read",
+    "status": "published"
+  },
+  {
+    "title": "Resurgence of Vinyl Records in the Digital Age",
+    "slug": "resurgence-of-vinyl-records-in-the-digital-age",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.pexels.com/photos/5895846/pexels-photo-5895846.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-28",
+    "readTime": "4 min read",
+    "status": "published"
+  },
+  {
+    "title": "Smart Homes and IoT Innovations",
+    "slug": "smart-homes-and-iot-innovations",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.unsplash.com/photo-1581090700227-1e8d40f0a436",
+    "author": {
+      "name": "M",
+      "avatar": "https://images.unsplash.com/photo-1516321310768-79db8a2784b2",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-26",
+    "readTime": "8 min read",
     "status": "published"
   },
   {
@@ -47,6 +422,56 @@
     "status": "published"
   },
   {
+    "title": "The Evolution of Smart Cities",
+    "slug": "the-evolution-of-smart-cities",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.unsplash.com/photo-1581090700227-1e8d40f0a436",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.unsplash.com/photo-1516321310768-79db8a2784b2",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-27",
+    "readTime": "8 min read",
+    "status": "published"
+  },
+  {
+    "title": "The Future of Renewable Energy",
+    "slug": "the-future-of-renewable-energy",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.unsplash.com/photo-1581090700227-1e8d40f0a436",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.unsplash.com/photo-1516321310768-79db8a2784b2",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-26",
+    "readTime": "8 min read",
+    "status": "published"
+  },
+  {
     "title": "The Impact of Artificial Intelligence on Finance",
     "slug": "the-impact-of-artificial-intelligence-on-finance",
     "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
@@ -69,6 +494,81 @@
     ],
     "publishedAt": "2025-04-26",
     "readTime": "8 min read",
+    "status": "published"
+  },
+  {
+    "title": "The Mystery of Dark Matter",
+    "slug": "the-mystery-of-dark-matter",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.pexels.com/photos/4173233/pexels-photo-4173233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-27",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "title": "The Science Behind Vaccines",
+    "slug": "the-science-behind-vaccines",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.pexels.com/photos/4173233/pexels-photo-4173233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-28",
+    "readTime": "5 min read",
+    "status": "published"
+  },
+  {
+    "title": "Women in Technology",
+    "slug": "women-in-technology",
+    "excerpt": "Exploring the transformative role of AI in healthcare, from diagnostics to drug discovery.",
+    "featuredImage": "https://images.pexels.com/photos/4057663/pexels-photo-4057663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "author": {
+      "name": "MAI",
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "bio": "AI and Technology Expert"
+    },
+    "categories": [
+      "AI",
+      "Healthcare",
+      "Technology"
+    ],
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare Innovation",
+      "Diagnostics",
+      "Drug Discovery"
+    ],
+    "publishedAt": "2025-04-27",
+    "readTime": "5 min read",
     "status": "published"
   }
 ]
