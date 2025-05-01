@@ -147,7 +147,7 @@
 /* Blog Grid */
 .blog-page__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -459,4 +459,4 @@
     font-size: 0.85rem;
     padding: 0.5rem 0.7rem;
   }
-} 
+}

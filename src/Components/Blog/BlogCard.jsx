@@ -22,7 +22,7 @@ const BlogCard = ({ post }) => {
         <div className="blog-card__footer">
           <div className="blog-card__author">
             <img src={post.author.avatar} alt={post.author.name} />
-            <span>{post.author.name}</span>
+            <span style={{ whiteSpace: 'nowrap' }}>By {post.author.name}</span>
           </div>
           <div className="blog-card__categories">
             {post.categories.map((category, index) => (
@@ -37,4 +37,4 @@ const BlogCard = ({ post }) => {
   );
 };
 
-export default BlogCard; 
+export default BlogCard;
