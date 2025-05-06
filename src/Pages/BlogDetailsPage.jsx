@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { format } from 'date-fns';
 import BreadCumb from '../Components/Common/BreadCumb';
@@ -13,6 +13,13 @@ const BlogDetailsPage = () => {
   const [MDXContent, setMDXContent] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const speechSynthesisRef = useRef(window.speechSynthesis);
+  const isSpeakingRef = useRef(false);
+  const utteranceRef = useRef(null);
+  const [showSeekBar, setShowSeekBar] = useState(false);
+  const [seekValue, setSeekValue] = useState(0);
+  const [words, setWords] = useState([]);
+  const seekBarTimeout = useRef(null);
 
   // Scroll to top when slug changes
   useEffect(() => {
@@ -116,6 +123,66 @@ const BlogDetailsPage = () => {
     window.scrollTo({ top: 0, behavior: 'instant' });
   };
 
+  // Helper to extract blog text content
+  const getBlogText = () => {
+    const el = document.querySelector('.blog-content');
+    return el ? el.innerText : (post?.excerpt || '');
+  };
+
+  // Prepare words array when content changes
+  useEffect(() => {
+    const text = getBlogText();
+    setWords(text.split(/\s+/));
+  }, [MDXContent, loading]);
+
+  // Handle speech
+  const speakFrom = (startIdx) => {
+    const synth = speechSynthesisRef.current;
+    if (isSpeakingRef.current) synth.cancel();
+    const text = words.slice(startIdx).join(' ');
+    if (!text.trim()) return;
+    const utter = new window.SpeechSynthesisUtterance(text);
+    utter.lang = 'en-US';
+    utter.rate = 1;
+    utter.onend = () => { isSpeakingRef.current = false; };
+    synth.cancel();
+    synth.speak(utter);
+    utteranceRef.current = utter;
+    isSpeakingRef.current = true;
+  };
+
+  // Speaker icon click: play/pause
+  const handleSpeak = () => {
+    const synth = speechSynthesisRef.current;
+    if (isSpeakingRef.current) {
+      synth.cancel();
+      isSpeakingRef.current = false;
+      return;
+    }
+    speakFrom(0);
+  };
+
+  // Show seek bar on long press or right click
+  const handleSpeakerMouseDown = (e) => {
+    if (e.type === 'contextmenu') e.preventDefault();
+    seekBarTimeout.current = setTimeout(() => setShowSeekBar(true), 400);
+  };
+  const handleSpeakerMouseUp = () => {
+    clearTimeout(seekBarTimeout.current);
+  };
+  const handleSpeakerMouseLeave = () => {
+    clearTimeout(seekBarTimeout.current);
+  };
+
+  // Seek bar drag
+  const handleSeekChange = (e) => {
+    setSeekValue(Number(e.target.value));
+  };
+  const handleSeekBarMouseUp = () => {
+    setShowSeekBar(false);
+    speakFrom(seekValue);
+  };
+
   if (!post) {
     return <div>Post not found</div>;
   }
@@ -124,9 +191,35 @@ const BlogDetailsPage = () => {
     <div className="blog-details-page">
       <BreadCumb title={post.title} />
       <div className="blog-details__container">
-        {/* Main Content Card */}
-        <div className="blog-details__content">
-          {/* Share Button */}
+        <div className="blog-details__content" style={{position: 'relative'}}>
+          {/* Speaker Icon Top Left */}
+          <button
+            onClick={handleSpeak}
+            onMouseDown={handleSpeakerMouseDown}
+            onMouseUp={handleSpeakerMouseUp}
+            onMouseLeave={handleSpeakerMouseLeave}
+            onContextMenu={handleSpeakerMouseDown}
+            title="Read aloud"
+            style={{position: 'absolute', top: 16, left: 16, background: 'none', border: 'none', padding: 0, cursor: 'pointer', zIndex: 10}}
+          >
+            <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/icons/volume-up.svg" alt="Speaker" style={{width: 24, height: 24}} />
+          </button>
+          {/* Seek Bar (short, word by word, drag only on bar) */}
+          {showSeekBar && words.length > 1 && (
+            <div style={{position: 'absolute', top: 48, left: 12, width: 120, background: '#fff', borderRadius: 8, boxShadow: '0 2px 8px rgba(0,0,0,0.08)', padding: 8, zIndex: 20, display: 'flex', alignItems: 'center', gap: 8}}>
+              <input
+                type="range"
+                min={0}
+                max={words.length - 1}
+                value={seekValue}
+                onChange={handleSeekChange}
+                onMouseUp={handleSeekBarMouseUp}
+                onTouchEnd={handleSeekBarMouseUp}
+                style={{width: 80}}
+              />
+              <span style={{fontSize: 12, color: '#888'}}>{seekValue + 1}/{words.length}</span>
+            </div>
+          )}
           <div className="blog-share">
             <button className="blog-share__button">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
